@@ -1,0 +1,5 @@
+const path = require('path')
+console.log(__dirname)
+const server = require(path.join(__dirname, 'app', 'server.js'))
+server.Log()
+//const relative_server = require(path.join(__dirname, '', 'server.js'))
